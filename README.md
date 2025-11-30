@@ -110,7 +110,7 @@ test_dict = {"text": test_df['review']}
 train_dataset = Dataset.from_dict(train_dict)
 val_dataset = Dataset.from_dict(val_dict)
 test_dataset = Dataset.from_dict(test_dict)
-
+![alt text](https://github.com/viaviachris/model_Adjust/blob/main/%E7%BC%BA%E5%A4%B1%E7%8E%87.png)
 模型加载与微调
 加载 Qwen3 模型
 from unsloth import FastLanguageModel
