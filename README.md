@@ -159,6 +159,8 @@ trainer = SFTTrainer(
 
 trainer.train()
 
+
+
 推理与结果保存
 
 微调后的模型可以用于对测试集进行推理：
@@ -184,6 +186,8 @@ for review_text in test_texts:
 
 result_output = pd.DataFrame(data={"id": test_ids, "sentiment": predictions})
 result_output.to_csv("../results/qwen3_4b_instruct_unsloth.csv", index=False)
+后面增加训练条数，使用phi-3.5-mini-instruct,损失率有效降低了但是准确率并没有明显变化，后续换几个模型进行调试，调增下lora参数
+![alt text](https://github.com/viaviachris/model_Adjust/blob/main/phi-3.5%E7%BC%BA%E5%A4%B1%E7%8E%87.png)
 
 总结
 
