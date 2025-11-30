@@ -159,7 +159,7 @@ trainer = SFTTrainer(
 
 trainer.train()
 
-
+刚开始小模型，训练条数较短的准确率![alt text](https://github.com/viaviachris/model_Adjust/blob/main/%E5%87%86%E7%A1%AE%E7%8E%87.png)
 
 推理与结果保存
 
