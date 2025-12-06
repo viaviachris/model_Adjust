@@ -1,4 +1,4 @@
-# model_Adjust
+# model_Fine-tune
 基于 Ollama 模型的情感分析
 
 本项目演示了如何使用 Ollama 的 Gemma 模型对 GLUE 数据集中的 SST-2 数据集进行情感分析。代码实现了数据集加载、预测请求以及结果评估的过程。
